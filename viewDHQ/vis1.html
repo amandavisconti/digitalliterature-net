@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>View DHQ</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="header"><a href="http://digitalliterature.net/viewDHQ"><img src="header.jpg"></a></div>
+
+<h1>1. First Pass.</h1>
+<img src="1.png">
+<p>To get a sense of what we're working with, here's a first pass visualization using all the citation network data: 110 DHQ articles. Each of the involved written pieces--both internal (DHQ articles) and external (cited non-DHQ articles, books, etc.) is represented as a node (circle), and the edges (links) among the circles are directed to connect the source node (the DHQ article in question) to each of its targets (each piece cited in the DHQ article's bibliography). Each edge is further given a weight number corresponding to how many times the target node is mentioned within the source DHQ article's text, with a weight of 1 meaning the target is in the bibliography but not mentioned in the article text, 2 meaning a single mention within the main article text, and so on.</p>
+<p>Just taking all the DHQ citation data at one leap doesn't yield an interesting visualization; there are too many nodes for effective labeling, though a few articles with unusually long bibliographies (i.e. pointing to many target nodes) are visible (e.g. dhq-00015 and dhq-000093). The small number of DHQ articles (110) coupled with the relatively poor interconnectedness of the citations will yield a variation on this kind of stacked configuration regardless of layout,<br><br>
+<img src="stack.jpg"><br><br>
+where each DHQ article is mostly linked to citations unshared by other articles, with relatively few DHQ articles sharing cited items or linking to other DHQ pieces. While the citation network for DHQ may not yet be richly interwoven, we can <a href="http://digitalliterature.net/viewDHQ/vis2.html">add some filters and other measures</a> to highlight some interesting points in this dataset...</p>
+
+
+<div id="footer">
+<span class="cc"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a></span> Created by Amanda Visconti in Spring 2012. See my <a href="http://www.twitter.com/Literature_Geek">Twitter</a> / <a href="http://literaturegeek.com">blog</a> / <a href="http://www.AmandaVisconti.com">portfolio</a>. Go back to <a href="http://digitalliterature.net/viewDHQ">the View DHQ home page</a>.
+</div>
+</body>
+</html>

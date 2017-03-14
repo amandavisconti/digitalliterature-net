@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>View DHQ</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="header"><a href="http://digitalliterature.net/viewDHQ"><img src="header.jpg"></a></div>
+
+<h1>2. Filter for frequency of namechecking within given article.</h1>
+<img src="2small.png"><br>
+<a href="http://digitalliterature.net/viewDHQ/2.png">Larger view of image</a><br>
+<p><strong>Who, when included in a work's bibliography, gets cited specifically a lot in the text of that article?</strong> Edge weights are numbers representing how many times an item in a work's bibliography appears in that work's main text; this visualization filters for edge weights of greater than 14, highlighting citations that were mentioned more than 13 times in the main text of the article (because weight of 1 means a node was in the bibliography but not mentioned in the main text).</p>
+<p>Compared to the first-pass visualization, this image highlights the 12 citations in the DHQ dataset that have the highest rate of being mentioned within the text of an article. There are many reasons a given citation may be multiply mentioned within the main text of an article: highly unique language requiring frequent quotation, moving back and forth between points from more than one source, or an article that focuses on debating a previous work are all reasons for greater edge weights, and might or might not signify the importance of a given work within the DH knowledge network. More work might be done by some simple coding of the nodes as to their use within a work to reveal whether such frequent mentions are the product of a quality specific to the node or the structure of the work citing it.</p>
+<p>
+Note that within our dataset, we're using the "< bibl xml:id >" descriptor to label nodes (individual works from DHQ or elsewhere); for example, "< bibl xml:id="dospassos1930" >" refers to a work published in 1930 by Dos Passos. Thus, we can identify among the works highlighted by this visualization Matthew Kirschenbaum's 2008 <em>Mechanisms</em> and Katherine Hayles' 2008 <em>Electronic Literature: New Horizons for the Literary</em>--which seem like important works that might be mentioned often--but also note that other assumedly important DH works (e.g. Vannevar Bush's 1945 "As We May Think") that are highlighted by other visualizations don't appear here. Let's <a href="http://digitalliterature.net/viewDHQ/vis3.html">try a different measure of citation importance...</a>
+</p>
+
+<div id="footer">
+<span class="cc"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a></span> Created by Amanda Visconti in Spring 2012. See my <a href="http://www.twitter.com/Literature_Geek">Twitter</a> / <a href="http://literaturegeek.com">blog</a> / <a href="http://www.AmandaVisconti.com">portfolio</a>. Go back to <a href="http://digitalliterature.net/viewDHQ">the View DHQ home page</a>.
+</div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+html {
+
+}
+
+body {
+     font-family: "Futura",serif;
+     margin: 0px auto;
+     width: 1075px;
+}
+
+#header {
+     float: left;
+     padding: 20px 50px 20px 0px;
+     width: 320px;
+}
+
+#top {
+     border: 5px solid black;
+     margin-bottom: 30px;
+     margin-left: 65px;
+     padding: 10px 10px 0px;
+     width: 212px;
+}
+
+#thumbs {
+     height: 740px;
+     margin-left: 400px;
+     width: 670px;
+}
+
+li {
+     float: left;
+     list-style-type: none;
+     padding-left: 30px;
+}
+
+.t1 {
+     margin-left: -60px;
+}
+
+#firstrow {
+     height: 320px;
+     padding-bottom: 30px;
+     padding-top: 15px;
+}
+
+.t3 {
+     margin-left: -230px;
+}
+
+#secondrow {
+     margin-left: 170px;
+}
+
+#intro {
+     padding-bottom: 3px;
+     padding-left: 30px;
+     width: 1040px;
+}
+
+#footer {
+     color: #777777;
+     float: left;
+     margin-left: 30px;
+     padding-bottom: 20px;
+padding-top: 10px;
+     width: 1040px;
+border-top: 2px solid black;
+}
+
+#footer img {
+     float: right;
+     margin-top: -10px;
+}
+
+img {
+     display: block;
+}
+
+#notes {
+background: #999999;
+padding: 20px;
+margin-top: 20px;
+}
+
+#text {
+     float: right;
+     font-family: Times,serif;
+     font-size: 18px;
+     line-height: 22px;
+     margin-left: 400px;
+     margin-top: -1110px;
+     width: 670px;
+}
+
+#nav1 {
+     height: 30px;
+     margin-left: 405px;
+     padding-top: 20px;
+}
+
+#nav2 {
+     float: right;
+     height: 30px;
+}

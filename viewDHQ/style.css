@@ -1,0 +1,52 @@
+body {
+     font-family: "Futura",serif;
+     margin: 0px auto;
+     width: 1050px;
+}
+
+#header {
+     margin: 0px auto;
+     padding-bottom: 30px;
+}
+
+#small {
+     font-size: 12px;
+}
+
+#thumbs {
+     margin-top: -20px;
+     width: 1050px;
+}
+
+li {
+     float: left;
+     list-style-type: none;
+     padding-top: 20px;
+}
+
+.t1 {
+     margin-left: -40px;
+}
+
+#secondrow {
+     margin-left: 210px;
+}
+
+#intro {
+     padding-bottom: 30px;
+     padding-top: 370px;
+}
+
+#footer {
+     color: #777777;
+}
+
+.cc {
+     margin-right: 2px;
+}
+
+img {
+     margin: 0px auto;
+     text-align: center;
+display: block;
+}
